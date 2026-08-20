@@ -15,9 +15,7 @@ wheels = [
 name = "assignment"
 version = "0.1.0"
 source = { editable = "." }
-dependencies = [
-    { name = "ipykernel" },
-]
+
 
 [package.metadata]
 requires-dist = [{ name = "ipykernel", specifier = ">=7.3.0" }]
